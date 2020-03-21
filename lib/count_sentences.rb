@@ -1,9 +1,10 @@
 require 'pry'
 
 class String
+  attr_accessor :sentence
 
-  def sentence?
-    
+  def sentence?(sentence)
+    @sentence = "#{sentence}".end_
   end
 
   def question?
